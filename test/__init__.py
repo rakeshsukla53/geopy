@@ -1,2 +1,2 @@
 
-from .geocoders import *
+from test.geocoders import *

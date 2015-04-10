@@ -2,11 +2,14 @@
 Test ability to proxy requests.
 """
 
-import os
 import unittest
+
+import os
 from test import proxy_server
 from geopy.compat import urlopen, URLError
 from geopy.geocoders.base import Geocoder
+
+
 
 ### UNIT TEST(S) to test Proxy in Geocoder base class ###
 ###

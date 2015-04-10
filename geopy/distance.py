@@ -72,10 +72,14 @@ calculate the length of a path::
 from __future__ import division
 
 from math import atan, tan, sin, cos, pi, sqrt, atan2, asin
+
 from geopy.units import radians
 from geopy import units, util
 from geopy.point import Point
 from geopy.compat import string_compare
+
+
+
 
 # Average great-circle radius in kilometers, from Wikipedia.
 # Using a sphere with this radius results in an error of up to about 0.5%.

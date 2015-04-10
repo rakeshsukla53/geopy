@@ -5,10 +5,10 @@
 import base64
 import hashlib
 import hmac
+
 from geopy.compat import urlencode
 from geopy.geocoders.base import Geocoder, DEFAULT_TIMEOUT, DEFAULT_SCHEME
 from geopy.exc import (
-    GeocoderQueryError,
     GeocoderQuotaExceeded,
     ConfigurationError,
     GeocoderParseError,
@@ -16,6 +16,7 @@ from geopy.exc import (
 )
 from geopy.location import Location
 from geopy.util import logger
+
 
 try:
     from pytz import timezone, UnknownTimeZoneError

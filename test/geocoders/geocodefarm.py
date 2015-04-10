@@ -1,7 +1,6 @@
-
 import unittest
-import types
 
+import types
 from geopy import exc
 from geopy.point import Point
 from geopy.geocoders import GeocodeFarm

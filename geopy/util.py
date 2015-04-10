@@ -3,7 +3,9 @@ Utils.
 """
 
 import logging
+
 from geopy.compat import py3k
+
 
 if not py3k: # pragma: no cover
     NUMBER_TYPES = (int, long, float)

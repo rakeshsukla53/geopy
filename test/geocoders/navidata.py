@@ -1,10 +1,7 @@
 # -*- coding: UTF-8 -*-
-import unittest
 
-from geopy.compat import u
 from geopy.geocoders import NaviData
-from test.geocoders.util import GeocoderTestBase, env
-
+from test.geocoders.util import GeocoderTestBase
 
 
 class NaviDataTestCase(GeocoderTestBase):

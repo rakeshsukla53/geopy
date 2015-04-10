@@ -4,8 +4,8 @@
 
 import json
 from time import time
-from geopy.compat import urlencode, Request
 
+from geopy.compat import urlencode, Request
 from geopy.geocoders.base import Geocoder, DEFAULT_SCHEME, DEFAULT_TIMEOUT, \
     DEFAULT_WKID
 from geopy.exc import GeocoderServiceError, GeocoderAuthenticationFailure

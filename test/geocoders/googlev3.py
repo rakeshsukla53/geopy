@@ -1,7 +1,7 @@
 import base64
 from datetime import datetime
-from pytz import timezone
 
+from pytz import timezone
 from geopy import exc
 from geopy.compat import u
 from geopy.point import Point

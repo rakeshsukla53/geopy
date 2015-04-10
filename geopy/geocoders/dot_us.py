@@ -4,6 +4,7 @@
 
 import csv
 from base64 import encodestring
+
 from geopy.compat import urlencode, py3k, Request
 from geopy.geocoders.base import (
     Geocoder,

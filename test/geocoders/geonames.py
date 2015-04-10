@@ -1,7 +1,6 @@
 # -*- coding: UTF-8 -*-
 import unittest
 
-from geopy.compat import u
 from geopy.geocoders import GeoNames
 from test.geocoders.util import GeocoderTestBase, env
 

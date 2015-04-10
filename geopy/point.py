@@ -3,8 +3,9 @@
 :class:`.Point` data structure.
 """
 
-import re
 from itertools import islice
+
+import re
 from geopy import util, units
 from geopy.format import (
     DEGREE,

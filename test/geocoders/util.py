@@ -1,10 +1,10 @@
-
-import os
 import json
 import unittest
 from collections import defaultdict
 
+import os
 from geopy import exc
+
 
 try:
     env = defaultdict(lambda: None)

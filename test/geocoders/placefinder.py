@@ -1,4 +1,3 @@
-
 import unittest
 
 from geopy.compat import u

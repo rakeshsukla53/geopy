@@ -1,4 +1,3 @@
-
 import unittest
 
 from geopy.geocoders import LiveAddress
