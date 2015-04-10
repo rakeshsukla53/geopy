@@ -25,7 +25,7 @@ class NYGeoclient():
 
 
 
-    def geocode(self, address):
+    def geocode(self, address, throttle):
         '''
         geolocator = NYGeoclient('bb80a97381a0fa916bb860768fa71b8f', 'e7df1765')
 
